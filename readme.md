@@ -4,6 +4,17 @@ StockScout is a lightweight Android inventory application built to demonstrate o
 
 It simulates real-world warehouse workflows where items can have multiple identifiers (UPC, EAN, GS1, etc.) and operations must continue even without network connectivity.
 
+## Screenshots
+
+<div align="center">
+  <img src="https://github.com/meemanali/Camera-Color-Picker-Compose/blob/main/assets/color_picker_splash.webp?raw=true" alt="Splash Screen" width="220" title="Splash">
+  <img src="https://github.com/meemanali/Camera-Color-Picker-Compose/blob/main/assets/color_picker_camera.webp" alt="List" width="220" title="List">
+ <img src="https://github.com/meemanali/Camera-Color-Picker-Compose/blob/main/assets/color_picker_exit.webp" alt="Scanner" width="220" title="Scanner">
+  <img src="https://github.com/meemanali/Camera-Color-Picker-Compose/blob/main/assets/color_picker_history.webp" alt="Pending Picks" width="220" title="Pending Picks">
+  <img src="https://github.com/meemanali/Camera-Color-Picker-Compose/blob/main/assets/color_picker_exit.webp" alt="Sync Done" width="220" title="Sync Done">
+</div>
+
+
 ## 🚀 Features
 ### 🔄 Offline-first data handling:
 * Items are cached locally using Room
