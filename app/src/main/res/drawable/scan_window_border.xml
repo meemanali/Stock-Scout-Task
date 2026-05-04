@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Scanner window: transparent center with corner bracket strokes.
+    Place this file at: res/drawable/scan_window_border.xml
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Top-left corner -->
+    <item
+        android:bottom="0dp"
+        android:right="0dp">
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="3dp"
+                android:color="#FFFFFF" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+
+</layer-list>

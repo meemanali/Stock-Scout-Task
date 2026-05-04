@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/itemListFragment"
+        android:name="com.eeman.stockscout.ui.frags.ItemListFragment"
+        android:label="StockScout"
+        tools:layout="@layout/fragment_item_list">
+
+        <action
+            android:id="@+id/action_itemList_to_detail"
+            app:destination="@id/itemDetailFragment" />
+        <!--        <action-->
+        <!--            android:id="@+id/action_search_to_detail"-->
+        <!--            app:destination="@id/itemDetailFragment"-->
+        <!--            app:enterAnim="@anim/slide_in_right"-->
+        <!--            app:exitAnim="@anim/slide_out_left"-->
+        <!--            app:popEnterAnim="@anim/slide_in_left"-->
+        <!--            app:popExitAnim="@anim/slide_out_right" />-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/itemDetailFragment"
+        android:name="com.eeman.stockscout.ui.frags.ItemDetailFragment"
+        android:label="Item Detail"
+        tools:layout="@layout/fragment_item_detail">
+
+        <argument
+            android:name="itemCode"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/scanFragment"
+        android:name="com.eeman.stockscout.ui.frags.ScannerFragment"
+        android:label="Scan Barcode"
+        tools:layout="@layout/fragment_scanner">
+
+        <!--        <action-->
+        <!--            android:id="@+id/action_scan_to_detail"-->
+        <!--            app:destination="@id/itemDetailFragment"-->
+        <!--            app:popUpTo="@id/searchFragment" />-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.eeman.stockscout.ui.frags.SplashFragment"
+        android:label="StockScout"
+        tools:layout="@layout/fragment_splash">
+
+        <!--        <action-->
+        <!--            android:id="@+id/action_search_to_detail"-->
+        <!--            app:destination="@id/itemDetailFragment"-->
+        <!--            app:enterAnim="@anim/slide_in_right"-->
+        <!--            app:exitAnim="@anim/slide_out_left"-->
+        <!--            app:popEnterAnim="@anim/slide_in_left"-->
+        <!--            app:popExitAnim="@anim/slide_out_right" />-->
+    </fragment>
+
+</navigation>
