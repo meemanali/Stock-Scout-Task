@@ -14,6 +14,20 @@ It simulates real-world warehouse workflows where items can have multiple identi
   <img src="https://github.com/user-attachments/assets/d8528945-2958-4aab-93db-438485c45c71" alt="Sync Done" width="220" title="Pending Picks">
 </div>
 
+## Video Demo
+
+* Offline Queue & Auto Sync Demonstration
+* This video shows StockScout’s offline-first sync mechanism in detail:
+  * Picks made while offline are stored locally and queued for synchronization.
+  * They persist across app restarts and are automatically uploaded when network connectivity returns via WorkManager.
+    
+
+https://github.com/user-attachments/assets/cfbff49e-8ab2-40b7-a2c1-f6ea89de8881
+
+
+
+
+
 ## 🚀 Features
 ### 🔄 Offline-first data handling:
 * Items are cached locally using Room
