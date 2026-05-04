@@ -7,13 +7,12 @@ It simulates real-world warehouse workflows where items can have multiple identi
 ## Screenshots
 
 <div align="center">
-  <img src="https://github.com/meemanali/Camera-Color-Picker-Compose/blob/main/assets/color_picker_splash.webp?raw=true" alt="Splash Screen" width="220" title="Splash">
-  <img src="https://github.com/meemanali/Camera-Color-Picker-Compose/blob/main/assets/color_picker_camera.webp" alt="List" width="220" title="List">
- <img src="https://github.com/meemanali/Camera-Color-Picker-Compose/blob/main/assets/color_picker_exit.webp" alt="Scanner" width="220" title="Scanner">
-  <img src="https://github.com/meemanali/Camera-Color-Picker-Compose/blob/main/assets/color_picker_history.webp" alt="Pending Picks" width="220" title="Pending Picks">
-  <img src="https://github.com/meemanali/Camera-Color-Picker-Compose/blob/main/assets/color_picker_exit.webp" alt="Sync Done" width="220" title="Sync Done">
+  <img src="https://github.com/user-attachments/assets/5694e69d-4af7-4590-a0be-943fbc08c169" alt="Splash Screen" width="220" title="Sync Done">
+  <img src="https://github.com/user-attachments/assets/c005aae8-4863-41ee-8c82-4748fec0822e" alt="List" width="220" title="Splash">
+  <img src="https://github.com/user-attachments/assets/e3e9e02a-939d-4355-abd0-691d8f810b01" alt="Scanner" width="220" title="List">
+ <img src="https://github.com/user-attachments/assets/2f94841b-0628-470f-b776-0ab2dd4bff68" alt="Pending Picks" width="220" title="Scanner">
+  <img src="https://github.com/user-attachments/assets/d8528945-2958-4aab-93db-438485c45c71" alt="Sync Done" width="220" title="Pending Picks">
 </div>
-
 
 ## 🚀 Features
 ### 🔄 Offline-first data handling:
