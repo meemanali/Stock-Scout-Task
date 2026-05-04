@@ -22,7 +22,11 @@ It simulates real-world warehouse workflows where items can have multiple identi
   * They persist across app restarts and are automatically uploaded when network connectivity returns via WorkManager.
     
 
-https://github.com/user-attachments/assets/cfbff49e-8ab2-40b7-a2c1-f6ea89de8881
+
+
+https://github.com/user-attachments/assets/36330f3c-dcd0-490b-8927-d8fdaf09a6ce
+
+
 
 
 
